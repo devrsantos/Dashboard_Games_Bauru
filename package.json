@@ -1,0 +1,34 @@
+{
+  "name": "dashboard_games_bauru",
+  "version": "1.0.0",
+  "description": "Painel Administrativo",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devrsantos/Dashboard_Games_Bauru.git"
+  },
+  "author": "Renan Augusto dos Santos <devrsantos@gmail.com> (https://github.com/devrsantos)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devrsantos/Dashboard_Games_Bauru/issues"
+  },
+  "homepage": "https://github.com/devrsantos/Dashboard_Games_Bauru#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "consign": "^0.1.6",
+    "css-loader": "^3.2.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "node-sass": "^4.13.0",
+    "nodemon": "^1.19.4",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
